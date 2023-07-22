@@ -1,0 +1,252 @@
+.beginhome {
+    padding-top: 150px;
+}
+
+.titelmain {
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 90px;
+    padding-top: 100px;
+}
+
+.ondertitelmain {
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.getquote {
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: rgb(46, 47, 112);
+    color: white;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-size: 25px;
+    transition: 0.6s;
+}
+
+.getquote:hover {
+    translate: 0px -10px;
+    transition: 0.3s;
+}
+
+.sideImageHome {
+    min-width: 1100px;
+    width: 100%;
+}
+
+.serviceshome {
+    padding-top: 100px;
+}
+
+.servicecard {
+    min-height: 200px;
+    height: auto;
+    min-width: 250px;
+    margin-top: 70px;
+    background-color: rgb(46, 47, 112);
+    border-radius: 40px;
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.servicecard:hover {
+    transition: 0.3s;
+    translate: 0px -15px;
+
+    .servicesimage {
+        transition: 0.3s;
+        translate: 0px -15px;
+    }
+}
+
+.servicesimage {
+    width: 250px;
+    padding: 30px;
+    transition: 0.6s;
+}
+
+.servicetitel {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.servicetekst {
+    color: rgba(255, 255, 255, 0.708);
+    font-size: larger;
+}
+
+.servicebutton {
+    max-width: 230px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-size: 18px;
+    transition: 0.6s;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.servicebutton:hover {
+    transition: 0.3s;
+    translate: 0px -10px;
+}
+
+
+.projcard {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.projimage-wrapper {
+    position: relative;
+}
+
+.projimage {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+}
+
+.projoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.projcard:hover .projoverlay {
+    opacity: 1;
+}
+
+.projtext {
+    color: #ffffff;
+}
+
+.projtext h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.projtext p {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.projbuttons {
+    margin-top: 10px;
+}
+
+.projbuttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.external {
+    width: 20px;
+}
+
+.linkbut {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 100Px;
+    transition: 0.6s;
+}
+
+.linkbut:hover {
+    translate: 0px -10px;
+    transition: 0.3s;
+}
+
+.testemonials {
+    padding-top: 70px;
+
+}
+
+.testemonialcard {
+    margin: 10px;
+    min-height: 200px;
+    min-width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.156);
+    border-radius: 20px;
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.testemonialcard:hover {
+    translate: 0px -10px;
+    transition: 0.3s;
+}
+
+.testlogo {
+    width: 60px;
+    border-radius: 80px;
+}
+
+.testtext {
+    margin-top: 20px;
+}
+.accent {
+    background-color: rgb(46, 47, 112);
+    color: white;
+}
+
+.bottomtest {
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    bottom: 10px;
+}
+
+.testname {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+
+
+@media (max-width: 600px) {
+    .titelmain {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .ondertitelmain {
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .sideImageHome {
+        display: none;
+    }
+}

@@ -1,0 +1,321 @@
+body,
+html {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+:root {
+    --viewport-height: 100vh;
+}
+
+.contactpagetotal {
+    min-height: calc(var(--viewport-height) - 200px);
+    height: auto;
+}
+
+ @keyframes spin {
+     0% {
+         transform: translateX(0%);
+     }
+
+     100% {
+         transform: translateX(7000%);
+     }
+ }
+
+ .sending {
+     animation: spin 1s linear forwards;
+ }
+.autoheight {
+    height: 100px !important;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: all 0.5s;
+    z-index: 5;
+}
+
+h5 {
+    font-size: 25px;
+    color: rgb(46, 47, 112);
+}
+h2 {
+    color: rgb(46, 47, 112);
+}
+
+.logo {
+    width: 200px;
+}
+
+.links {
+    float: right;
+    
+}
+
+.links li {
+    display: inline-block;
+}
+
+.linksstyle {
+    text-decoration: none;
+    color: rgb(46, 47, 112);
+    font-weight: bold;
+    padding-right: 20px;
+    transition: all 1s;
+}
+
+.linksstyle:hover {
+    color: rgba(46, 47, 112, 0.622);
+    transition: all 0.3s;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.menubuttonsize {
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu {
+    z-index: 2;
+    line-height: 40px;
+    text-align: right;
+    display: none;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+    .links {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
+
+.formfield {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    width: 80%;
+    resize: vertical;
+    outline: none;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.formfield::placeholder {
+    color: black;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.contactpage {
+    padding-top: 100px;
+}
+
+.paddingleft {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 400px) {
+    .paddingleft {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+}
+
+.kleinetitel {
+    color: rgb(46, 47, 112);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.sociallinks {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: 1s all;
+}
+
+.sociallinks:hover {
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.sendbutton {
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.sendbutton:hover+.sendicon {
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.sendicon {
+    width: 20px;
+    transition: 0.6s all;
+}
+
+@media (max-width:600px) {
+    .samenwerktitel {
+        font-size: 40px;
+    }
+
+    .contactpage {
+        padding-top: 0px;
+    }
+
+    .top {
+        padding-top: 100px;
+    }
+}
+
+
+.hide {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hide2 {
+    transform: translateY(-200%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer {
+    background-color: rgb(18, 17, 59);
+    height: auto;
+    min-height: 300px;
+    bottom: 0px;
+}
+
+.calltoactionbutton {
+    padding: 15px;
+    border: none;
+    background-color: rgb(46, 47, 112);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.6s;
+
+
+}
+
+.calltoactionbutton:hover {
+    translate: 0px -6px;
+    transition: 0.3s;
+}
+
+h1 {
+    color: rgb(46, 47, 112);
+}
+
+.backg-col-white {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.alingvertcenter {
+    /* Center vertically */
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerpart {
+    border-left: 2px solid white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+
+.footerlink:hover {
+    padding-left: 5px;
+    transition: 0.3s;
+}
+
+.sociallogo {
+    width: 40px;
+    margin-left: 40px;
+    transition: 0.6s;
+
+}
+
+.sociallogo:hover {
+    margin-left: 45px;
+    transition: 0.3s;
+    size: 40px;
+}
+
+.bottompartoffooter {
+    height: auto;
+    color: rgba(255, 255, 255, 0.43);
+    margin-top: 10px;
+}
+
+.tp {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.43);
+}
+
+.tp:hover {
+    text-decoration: underline;
+}
+
+.sociala {
+    height: 60px;
+    padding-top: 0px;
+}
+
+.language {
+    color: white;
+    text-decoration: none;
+    width: 40px;
+    margin-left: 40px;
+    transition: 0.6s;
+}
+.language:hover {
+    margin-left: 45px;
+    transition: 0.3s;
+    
+}

@@ -1,0 +1,316 @@
+.pricingcard {
+    text-align: center;
+    border: 1px rgba(0, 0, 0, 0.371) solid;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-top: 30px;
+    letter-spacing: -1px;
+    transition: 0.7s;
+    max-width: 23%;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .pricingcard {
+        max-width: 23%;
+    }
+}
+
+@media (max-width: 800px) {
+    .pricingcard {
+        max-width: 40vw;
+
+    }
+
+}
+
+.buisinesscard {
+    color: white;
+    background-color: rgb(46, 47, 112);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.itemlist {
+    list-style-type: none;
+    line-height: 30px;
+    padding: 0;
+}
+
+.startingat {
+    color: grey;
+}
+
+.pricing {
+    font-size: 50px;
+    letter-spacing: -3px;
+}
+
+.permonth {
+    color: grey;
+}
+
+.pricingcard:hover {
+    scale: 1.15;
+    transition: 0.3s;
+}
+
+.infoicon {
+    width: 15px;
+}
+
+.navwebandhost {
+    z-index: 6;
+    height: 80px;
+    width: 30%;
+    word-wrap: 70px;
+    margin-left: 35%;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    padding: 20px;
+    transition: all 0.5s;
+    position: fixed;
+}
+
+.nav2links {
+    text-decoration: none;
+    color: rgb(46, 47, 112);
+    font-weight: bold;
+    padding-right: 20px;
+    transition: all 1s;
+    z-index: 2100;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.nav2links:hover {
+    color: rgba(46, 47, 112, 0.622);
+    transition: all 0.3s;
+}
+
+.Title {
+    padding-top: 200px;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.extracard {
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: auto;
+    max-width: 350px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.6s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.extracard:hover {
+    transition: 0.3s;
+    translate: 0px -20px;
+
+    .extraimage {
+        translate: 0px -10px;
+        transition: 0.3s;
+    }
+}
+
+.extraimage {
+    transition: 0.6s;
+    padding-top: 30px;
+    max-width: 45%;
+    width: auto;
+    height: 132px;
+}
+
+.extratitle {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.extrauitleg {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: rgba(69, 68, 68, 0.635);
+}
+
+.extraprice {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.extracardblue {
+    background-color: rgb(46, 47, 112);
+    color: white;
+
+    .extrauitleg {
+        color: rgba(255, 255, 255, 0.821);
+    }
+}
+
+.contactdivbottom {
+    background-color: rgb(46, 47, 112);
+    max-width: 600px;
+    min-height: 400px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.meetingbutton {
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+.meetingbutton:hover {
+    translate: 0px -10px;
+    transition: 0.3s;
+}
+
+.contactformpricing::placeholder {
+    color: white;
+
+}
+
+.contactformpricing {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.popular {
+    position: absolute;
+    top: -0.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 17px;
+    border: 3px solid rgb(46, 47, 112);
+    border-radius: 30px;
+    min-width: 160px;
+}
+
+@media (max-width: 1200px) {
+    .popular {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Title {
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .pricing {
+        font-size: 30px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .navwebandhost {
+        display: none;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.currency-switcher {
+    margin-bottom: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: rgb(46, 47, 112);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
