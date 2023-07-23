@@ -289,17 +289,23 @@
 
         </div>
     </div>
-    <h2 class="Title" id="hosting">Website Hosting</h2>
+    <h2 class="Title slide-top" id="hosting">Website Hosting</h2>
     <div class="row justify-content-center mt-5">
         <div class="pricingtable row col-11 col-xxl-8 justify-content-around" id="pricingtable">
-            <div class="pricingcard col-5 col-md-3">
+            <div class="pricingcard col-5 col-md-3 slide-left">
                 <div class="pricingcardtitle">
                     <h1>STARTER</h1>
                 </div>
                 <div class="price">
                     <span class="startingat">Vanaf</span> <br>
-                    <span class="pricing">€24</span><span class="startingat"> / maand</span>
-                </div> <br>
+                    <span class="pricing" id="currency">€</span> <span class="pricing" id="pricing">24</span><span
+                        class="startingat monthly"> / maand</span>
+                </div>
+                <div class="yearlyprice">
+                    Of <span id="currency"> €</span><span id="pricing">245</span><span class="monthly"
+                        style="color: grey;"> / jaar</span> <br>
+                </div>
+                <br>
                 <span class="startingat">Dit omvat:</span> <br><br>
                 <ul class="itemlist">
                     <li>&#x2713; &#8203; &#8203; 24/7 Onderhoud</li>
@@ -319,15 +325,21 @@
                     </li>
                 </ul>
             </div>
-            <div class="pricingcard col-5 col-md-3 buisinesscard">
+            <div class="pricingcard col-5 col-md-3 buisinesscard slide-left" data-delay="100">
                 <div class="popular">Meest Gekocht</div>
                 <div class="pricingcardtitle">
                     <h1 style="color: white;">POWER</h1>
                 </div>
                 <div class="price">
                     <span class="startingat">Vanaf</span> <br>
-                    <span class="pricing">€49</span><span class="startingat"> / maand</span>
-                </div> <br>
+                    <span class="pricing" id="currency">€</span> <span class="pricing" id="pricing">49</span><span
+                        class="startingat monthly"> / maand</span>
+                </div>
+                <div class="yearlyprice">
+                    Of <span id="currency"> €</span><span id="pricing">459</span><span class="monthly"
+                        style="color: grey;"> / jaar</span> <br>
+                </div>
+                <br>
                 <span class="startingat">Dit omvat:</span> <br><br>
                 <ul class="itemlist">
                     <li>&#x2713; &#8203; &#8203; 24/7 Onderhoud</li>
@@ -349,14 +361,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="pricingcard col-5 col-md-3">
+            <div class="pricingcard col-5 col-md-3 slide-left" data-delay="200">
                 <div class="pricingcardtitle">
                     <h1>DELUXE</h1>
                 </div>
                 <div class="price">
                     <span class="startingat">Vanaf</span> <br>
-                    <span class="pricing">€99</span><span class="startingat"> / maand</span>
-                </div> <br>
+                    <span class="pricing" id="currency">€</span> <span class="pricing" id="pricing">95</span><span
+                        class="startingat monthly"> / maand</span>
+                </div>
+                <div class="yearlyprice">
+                    Of <span id="currency"> €</span><span id="pricing">969</span><span class="monthly"
+                        style="color: grey;"> / jaar</span> <br>
+                </div>
+                <br>
                 <span class="startingat">Dit omvat:</span> <br><br>
                 <ul class="itemlist">
                     <li>&#x2713; &#8203; &#8203; 24/7 Onderhoud</li>
@@ -379,14 +397,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="pricingcard col-5 col-md-3">
+            <div class="pricingcard col-5 col-md-3 slide-left" data-delay="300">
                 <div class="pricingcardtitle">
                     <h1>OP MAAT</h1>
                 </div>
                 <div class="price">
                     <span class="startingat">Vanaf</span> <br>
-                    <span class="pricing">€299</span><span class="startingat"> / maand</span>
-                </div> <br>
+                    <span class="pricing" id="currency">€</span> <span class="pricing" id="pricing">195</span><span
+                        class="startingat monthly"> / maand</span>
+                </div>
+                <div class="yearlyprice">
+                    Of <span id="currency"> €</span><span id="expense">1.989</span><span class="monthly"
+                        style="color: grey;"> / jaar</span> <br>
+                </div>
+                <br>
                 <span class="startingat">Dit omvat:</span> <br><br>
                 <ul class="itemlist">
                     <li>&#x2713; &#8203; &#8203; 24/7 Onderhoud</li>
@@ -411,21 +435,23 @@
             </div>
         </div>
     </div>
-    <h1 class="Title" style="padding-top: 1px;">Extra's</h1>
-    <div class="startingat text-center"> Blauw betekend aangeraden</div>
+    <h1 class="Title slide-top" style="padding-top: 1px;">Extra's</h1>
+    <div class="startingat text-center slide-top"> Blauw betekend aangeraden</div>
     <div class="justify-content-center row mt-5">
         <div class="col-12 col-xl-7 row justify-content-center">
-            <div class="col-4 extracard justify-content-center row extracardblue">
+            <div class="col-4 extracard justify-content-center row extracardblue slide-left">
                 <img src="../img/chatbot (1).png" alt="Advanced chatbot icon image KDM Media" class="extraimage">
                 <h5 class="extratitle">Geavanceerd Chatbot</h5>
                 <div class="col-10">
                     <span class="extrauitleg">We bereiden uw chatbot uit zodat deze 70% van alle conversaties kan
                         beantwoorden en onderhouden deze wanneer dit nodig is.
                 </div>
-                <div><span class="extraprice">€49 </span><span class="startingat"> / maand</span></div>
+                <div class="extraprice"><span id="currency">€</span><span id="pricing" class="hostprice">49 </span><span
+                        class="startingat monthly">/
+                        maand</span></div>
                 </span>
             </div>
-            <div class="col-4 extracard justify-content-center row">
+            <div class="col-4 extracard justify-content-center row slide-left" data-delay="100">
                 <img src="../img/cdn.png" alt="Advanced chatbot icon image KDM Media" class="extraimage">
                 <h5 class="extratitle">CDN</h5>
                 <div class="col-10">
@@ -434,10 +460,12 @@
                         verkort en prestaties verbetert door content van de dichtstbijzijnde server aan de gebruiker te
                         leveren.
                 </div>
-                <div><span class="extraprice">€19 </span><span class="startingat"> / maand</span></div>
+                <div class="extraprice"><span id="currency">€</span><span id="pricing" class="hostprice">19 </span><span
+                        class="startingat monthly">/
+                        maand</span></div>
                 </span>
             </div>
-            <div class="col-4 extracard justify-content-center row">
+            <div class="col-4 extracard justify-content-center row slide-left" data-delay="200">
                 <img src="../img/secure-data.png" alt="Advanced Security icon image KDM Media" class="extraimage">
                 <h5 class="extratitle">Geavanceerde Beveiliging</h5>
                 <div class="col-10">
@@ -447,15 +475,17 @@
                         gegevens en gebruikers met
                         vertrouwen tegen bedreigingen.
                 </div>
-                <div><span class="extraprice">€99 </span><span class="startingat"> / maand</span></div>
+                <div class="extraprice"><span id="currency">€</span><span id="pricing" class="hostprice">99 </span><span
+                        class="startingat monthly">/
+                        maand</span></div>
                 </span>
             </div>
         </div>
     </div>
-    <h2 class="Title" style="padding-top: 60px;">Klaar voor uw website?</h2>
+    <h2 class="Title slide-top" style="padding-top: 60px;">Klaar voor uw website?</h2>
     <div class="justify-content-center row">
         <div class="justify-content-around row col-8">
-            <div class="contactdivbottom col-10 col-xl-5 justify-content-around text-center row">
+            <div class="contactdivbottom col-10 col-xl-5 justify-content-around text-center row slide-left">
                 <h2 style="color: white; font-weight: bold; font-size: 40px; margin-top: 30px; margin-bottom: 30px;">
                     Boek een meeting</h2>
                 <!-- Calendly inline widget begin -->
@@ -466,7 +496,8 @@
                     async></script>
                 <!-- Calendly inline widget end -->
             </div>
-            <div class="contactdivbottom col-10 col-xl-5 justify-content-around text-center row">
+            <div class="contactdivbottom col-10 col-xl-5 justify-content-around text-center row slide-left"
+                data-delay="200">
                 <h2 style="color: white; font-weight: bold; font-size: 40px; margin-top: 30px; margin-bottom: 30px;">
                     Stuur ons een e-mail
                 </h2>
@@ -481,13 +512,13 @@
                     <textarea type="text" id="message" name="message" placeholder="Hoe kunnen wij je helpen?" required
                         class="formfield contactformpricing"></textarea><br><br>
                     <input type="submit" value="Verstuur" class="sendbutton " id="sendButton" style="color: white"> <img
-                        src="img/send2.png" class="sendicon" id="sendIcon">
+                        src="../img/send2.png" class="sendicon" id="sendIcon">
                 </form>
             </div>
         </div>
     </div>
     <footer>
-        <div class="footer mt-5">
+        <div class="footer mt-5" style="">
             <div class="toppartfooter row justify-content-around">
                 <div class="col-11 col-md-6 col-xl-4 col-lg-5 row backg-col-white alingvertcenter row">
                     <div class="col-12 col-xl-5 text-center">
