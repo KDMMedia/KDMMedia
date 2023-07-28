@@ -234,15 +234,18 @@
 
 @media (max-width: 600px) {
     .titelmain {
-        font-size: 50px;
+        font-size: 45px;
         text-align: center;
+        padding: 0px;
     }
 
     .ondertitelmain {
         font-size: 20px;
         text-align: center;
     }
-
+    .servicetitel {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 992px) {
